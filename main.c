@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
+#include "calc.h"
 
 
 int main (void)
 {
-	int v = 10;
-	printf("Hello World\n\r");
+	int result = soma(5,4);
+
 	
+	printf("%d", result);
 	
 	return 0;
 }
