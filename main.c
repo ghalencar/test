@@ -8,8 +8,7 @@ int main (void)
 {
 	int result = soma(5,4);
 
-	
-	printf("%d", result);
+	printf("Resultado da soma é: %d", result);
 	
 	return 0;
 }
