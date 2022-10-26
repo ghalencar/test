@@ -8,7 +8,7 @@ int main (void)
 {
 	int result = soma(5,4);
 
-	printf("Resultado da operação é: %d", result);
+	printf("The Result of Operation is: %d", result);
 	
 	return 0;
 }
